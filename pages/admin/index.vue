@@ -2,7 +2,7 @@
     <AdminLayout>
         <div 
             id="AdminPage" 
-            class="flex h-[calc(100%-50px)] pb-4"
+            class="flex h-[100vh] pb-4"
         >
             <div class="lg:w-[calc(100%-500px)] md:w-[calc(100%-330px)] w-full md:pt-20 pt-14">
                 <div class="max-w-[650px] mx-auto pb-24">

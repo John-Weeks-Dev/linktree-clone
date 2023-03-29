@@ -258,4 +258,9 @@
         isCropping.value = true
         emit('data', data)
     }
+
+    onUnmounted(() => {
+        video.value.pause()
+        video.value.currentTime = 0
+    })
 </script>
