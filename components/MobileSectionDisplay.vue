@@ -27,7 +27,7 @@
             >
 
             <div 
-                class=" w-full h-full absolute lg:max-w-[230px] max-w-[204px] rounded-3xl z-0" 
+                class=" w-full h-full absolute lg:max-w-[220px] max-w-[195px] rounded-3xl z-0" 
                 :class="userStore.theme.color"
             />
 
