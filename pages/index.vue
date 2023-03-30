@@ -76,9 +76,11 @@ const login = async () => {
     try {
         await userStore.getTokens()
         await userStore.login(email.value, password.value)
-        await userStore.getUser()
-        await userStore.getAllLinks()
-        router.push('/admin')
+        setTimeout(async () => {
+            await userStore.getUser()
+            await userStore.getAllLinks()
+            router.push('/admin')
+        }, 1000)
     } catch (error) {
         console.log(error)
         errors.value = error.response.data.errors
