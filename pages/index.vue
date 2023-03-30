@@ -14,7 +14,7 @@
                         placeholder="Email: link@gmail.com"
                         v-model:input="email"
                         inputType="email"
-                        :error="errors && errors.name ? errors.name[0] : ''"
+                        :error="errors && errors.email ? errors.email[0] : ''"
                     />
                 </div>
 
@@ -26,8 +26,6 @@
                         :error="errors && errors.password ? errors.password[0] : ''"
                     />
                 </div>
-
-                {{ errors }}
 
                 <div class="mt-10">
                     <button
