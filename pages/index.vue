@@ -74,7 +74,7 @@ const login = async () => {
     errors.value = null
 
     try {
-        // await userStore.getTokens()
+        await userStore.getTokens()
         await userStore.login(email.value, password.value)
         await userStore.getUser()
         await userStore.getAllLinks()
