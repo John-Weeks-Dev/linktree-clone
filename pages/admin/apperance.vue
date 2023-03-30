@@ -41,22 +41,6 @@
                                     >
                                         Pick image
                                     </button>
-                                    <button 
-                                        class="
-                                            flex 
-                                            items-center 
-                                            border 
-                                            justify-center 
-                                            w-full 
-                                            py-3 
-                                            rounded-full 
-                                            text-black 
-                                            font-semibold 
-                                            hover:bg-gray-100
-                                        "
-                                    >
-                                        Remove
-                                    </button>
                                 </div>
                             </div>
 
