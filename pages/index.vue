@@ -31,6 +31,7 @@
                     <button
                         type="submit"
                         class="rounded-full w-full p-3 font-bold"
+                        :disabled="(!email || !password) "
                         :class="
                             (email && password) 
                                 ? 'bg-[#8228D9] hover:bg-[#6c21b3] text-white' 
