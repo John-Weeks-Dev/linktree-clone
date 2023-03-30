@@ -31,7 +31,6 @@ onMounted(async () => {
   addLinkOverlay.value = false
   isPreviewOverlay.value = false
   isMobile.value = false
-  await userStore.getTokens()
 
   try {
     if (userStore.id) {
