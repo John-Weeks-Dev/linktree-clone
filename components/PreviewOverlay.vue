@@ -65,7 +65,10 @@
                     </div>
 
                     <div v-for="link in userStore.allLinks">
-                        <button class="flex items-center relative border w-[calc(100%-10px)] mx-auto bg-white mt-4 p-1 rounded-lg">
+                        <a 
+                            :href="link.url"
+                            class="flex items-center relative border w-[calc(100%-10px)] mx-auto bg-white mt-4 p-1 rounded-lg"
+                        >
                             <img 
                                 class="rounded-lg h-[45px] aspect-square"
                                 :src="link.image"
@@ -74,7 +77,7 @@
                             <div class="absolute text-[16px] text-center w-full">
                                 {{ link.name }}
                             </div>
-                        </button>
+                        </a>
                     </div>
                     <div class="pb-28"/>
                 </div>
