@@ -5,7 +5,7 @@
             class="flex h-[100vh] pb-4"
         >
             <div class="lg:w-[calc(100%-500px)] md:w-[calc(100%-330px)] w-full md:pt-20 pt-14">
-                <div class="max-w-[650px] mx-auto pb-24">
+                <div class="max-w-[750px] mx-auto pb-24">
                     
                     <button 
                         v-if="userStore.isMobile || !showAddLink"
