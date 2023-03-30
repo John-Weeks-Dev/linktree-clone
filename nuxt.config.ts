@@ -23,10 +23,10 @@ export default defineNuxtConfig({
   ],
   pwa: {
     manifest: {
-      name: "Nuxt Vite PWA",
-      short_name: "NuxtVitePWA",
-      description: "This is a NUXT PWA",
-      theme_color: "#ffffff",
+      name: "Linktree Clone",
+      short_name: "Linktree Clone",
+      description: "This is a Linktree Clone",
+      theme_color: "#32CD32",
       icons: [
         {
           src: "pwa-192x192.png",
