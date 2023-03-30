@@ -93,7 +93,7 @@ const register = async () => {
     errors.value = null
 
     try {
-        await userStore.getTokens()
+        // await userStore.getTokens()
         await userStore.register(
             name.value, 
             email.value, 

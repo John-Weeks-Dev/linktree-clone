@@ -35,6 +35,7 @@ onMounted(async () => {
   try {
     if (userStore.id) {
       await userStore.hasSessionExpired()
+      await userStore.getTokens()
       await userStore.getUser()
       await userStore.getAllLinks()
     }
