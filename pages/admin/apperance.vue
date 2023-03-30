@@ -187,6 +187,8 @@ const updateUserImage = async () => {
         await userStore.getUser()
         setTimeout(() => openCropper.value = false, 300)
     } catch (error) {
+        openCropper.value = false
+        alert(error)
         console.log(error)
     }
 }
