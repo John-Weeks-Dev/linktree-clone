@@ -27,6 +27,8 @@
                     />
                 </div>
 
+                {{ errors }}
+
                 <div class="mt-10">
                     <button
                         type="submit"
