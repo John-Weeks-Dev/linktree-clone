@@ -67,6 +67,7 @@
                     <div v-for="link in userStore.allLinks">
                         <a 
                             :href="link.url"
+                            target="_blank"
                             class="flex items-center relative border w-[calc(100%-10px)] mx-auto bg-white mt-4 p-1 rounded-lg"
                         >
                             <img 
