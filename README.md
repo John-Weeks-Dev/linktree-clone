@@ -12,7 +12,7 @@ Come and check out my YOUTUBE channel for lots more tutorials -> https://www.you
 
 ## NOTE
 
-### For this Tiktok Clone to work you'll need the API/Backend:
+### For this Linktree Clone to work you'll need the API/Backend:
 
 Linktree Clone API: https://github.com/John-Weeks-Dev/linktree-clone-api
 

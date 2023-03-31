@@ -4,10 +4,7 @@ export default defineNuxtConfig({
   experimental: {
     payloadExtraction: false
   },
-  css: [
-    '~/assets/css/main.css',
-    'animate.css/animate.min.css',
-  ],
+  css: ['~/assets/css/main.css'],
   postcss: {
     plugins: {
       tailwindcss: {},
