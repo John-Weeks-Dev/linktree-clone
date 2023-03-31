@@ -31,6 +31,20 @@ Inside Plugins/axios.js make sure the baseUrl is the same as your API.
 
 You should be good to go!
 
+## Extra Info
+
+In the tutorial I show you what you need to edit in your Nginx config file.
+
+This example is in Laravel Forge:
+
+1. In the frontend open the "Edit Nginx Configuration"
+
+<img width="1000" src="https://user-images.githubusercontent.com/108229029/229151201-f9d1fe83-ca68-496e-9a1e-3ef031ce8271.png">
+<img width="1000" src="https://user-images.githubusercontent.com/108229029/229151378-986b62d3-aab4-451d-8c65-029a3f2ec8a7.png">
+
+2. Update the location section to this.
+<img width="1000" src="https://user-images.githubusercontent.com/108229029/229151891-46be485f-57e7-4bb9-9bac-6a1686e2c653.png">
+
 # Application Images
 
 <img width="1439" src="https://user-images.githubusercontent.com/108229029/228939676-4f229e2a-96b7-4bfd-9926-91c203e1448e.png">
