@@ -1,6 +1,6 @@
 <template>
     <div 
-        id="UpdateLinkOverlay"
+        id="AddLinkOverlay"
         class="fixed z-40 top-0 left-0 w-full h-full bg-white px-5"
     >
         <div class="flex items-center justify-start w-full py-[8px]">
