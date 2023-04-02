@@ -3,10 +3,7 @@
         id="UpdateLinkOverlay"
         class="fixed z-40 top-0 left-0 w-full h-full bg-white px-5"
     >
-        <div
-            id="UpdateLinkOverlay" 
-            class="w-full md:hidden flex items-center justify-between"
-        >
+        <div class="w-full md:hidden flex items-center justify-between">
             <div class="flex items-center justify-between w-full py-[8px]">
                 <button 
                     type="button"
